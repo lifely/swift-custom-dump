@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name    = "CustomDump"
-    s.version = "0.1.2"
+    s.version = "0.1.3"
 
     s.summary     = "Replacement for swift 'dump' allowing more customization"
     s.description = "A collection of tools for debugging, diffing, and testing your application's data structures."
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
 
     s.source_files = 'Sources/**/*'
 
-    s.dependency 'XCTestDynamicOverlay', '~> 0.2.0'
+    s.dependency 'XCTestDynamicOverlay', '~> 0.2.2'
 end
